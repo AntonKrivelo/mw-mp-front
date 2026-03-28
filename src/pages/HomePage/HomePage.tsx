@@ -1,8 +1,15 @@
+import { Helmet } from 'react-helmet';
+import './style.scss';
+
 const HomePage: React.FC = () => {
   return (
-    <div>
-      <h1>My Marketplace</h1>
-    </div>
+    <>
+      <Helmet>
+        <title>Главная - MW Marketplace</title>
+      </Helmet>
+
+      <h1>Главная - My Marketplace</h1>
+    </>
   );
 };
 
