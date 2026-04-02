@@ -1,0 +1,17 @@
+.home__header-title {
+  color: rgba(102, 101, 101, 0.9);
+  margin-top: 30px;
+}
+
+.cards__wrapper {
+  margin-top: 30px;
+}
+
+.card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 50px 0 50px 0;
+}
